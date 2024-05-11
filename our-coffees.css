@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+   box-sizing: border-box;
+}
+header{
+    background-image: url(/our-coffees-img/CO84532---Autumn-2023-Food-Photoshoot---Shot-1-desktop-1600x464.jpg);
+    background-size: 100%;
+}
+.ata {
+    font-size: 48px;
+    color: rgb(105, 27, 50); 
+}
+
+.ta-1{
+    color:rgb(105, 27, 50) ;
+}
+.bar{
+ background-color: rgb(181,17,68);
+}
+
+footer{
+    background-color: rgb(181,17,68);
+}
+div.footer-bottom{
+    background-color: rgb(109,31,55);
+}
+
+.lnk{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+main{
+    background-image: url(/our-coffees-img/wavy-background.png);
+    background-repeat: repeat;
+    background-size: 320px 320px !important;
+}
+.clearfix{
+   margin-left: 100px;
+   margin-right: 100px;
+}
