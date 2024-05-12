@@ -7,10 +7,10 @@ header {
   width: 100%;
   background-position: center;
 }
-.mobile{
+.mobile {
   background-image: url(/our-coffees-img/wavy-background.png);
   background-repeat: repeat;
-  background-size: 320px 320px !important; 
+  background-size: 320px 320px !important;
 }
 
 .ata {
@@ -52,7 +52,6 @@ main {
   font-size: 24px;
   color: rgb(109, 31, 55);
   font-weight: bolder;
-  
 }
 .teaser-p {
   font-size: 18px;
@@ -60,10 +59,10 @@ main {
   color: black;
 }
 
-.link{
-    color: rgb(109, 31, 55);
-    text-decoration: underline 2px;
-    text-underline-offset: 4px;
+.link {
+  color: rgb(109, 31, 55);
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
 }
 
 .go-to-go {
@@ -73,30 +72,30 @@ main {
 }
 
 #top-btn {
-    font-size: 18px;
-    background-color: #6c1f37;
-    color: white;
-    font-weight: bolder;
-    border: none;
-    padding: 18px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 35px;
-    width: 180px;
-  }
+  font-size: 18px;
+  background-color: #6c1f37;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 35px;
+  width: 180px;
+}
 
-@media (min-width: 576px) { 
-    header {
-        height: 440px;
-        background-position: -650px;
-    }
-    .ata {
-        font-size: 25px;
-      }
-      .ta-1 {
-       font-size: 10px;
-      }
+@media (min-width: 576px) {
+  header {
+    height: 440px;
+    background-position: -650px;
+  }
+  .ata {
+    font-size: 25px;
+  }
+  .ta-1 {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -109,7 +108,7 @@ main {
   }
 
   .triangle-right {
-    content: '';
+    content: "";
     width: 0px;
     height: 0px;
     border-top: 6px solid transparent;
@@ -120,7 +119,7 @@ main {
   }
 
   .triangle-bottom {
-    content: '';
+    content: "";
     width: 0px;
     height: 0px;
     border-top: 6px solid transparent;
@@ -130,21 +129,20 @@ main {
     justify-content: center;
   }
   header {
-      height: 440px;
-      background-position: -650px;
+    height: 440px;
+    background-position: -650px;
   }
 }
 
 @media (min-width: 992px) {
-    header {
-        height: 440px;
-        background-position: -420px;
-    }
+  header {
+    height: 440px;
+    background-position: -420px;
+  }
 
-    #top-btn {
-        width: 170px;
-    }
-
+  #top-btn {
+    width: 170px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -157,10 +155,10 @@ main {
   }
 }
 @media (min-width: 1400px) {
-    #top-btn {
-        width: 180px;
-    }
+  #top-btn {
+    width: 180px;
   }
+}
 
 /* copy css */
 
