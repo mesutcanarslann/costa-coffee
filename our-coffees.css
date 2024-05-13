@@ -3,9 +3,12 @@
 }
 
 header {
+  position: relative;
   background-image: url(/our-coffees-img/CO84532---Autumn-2023-Food-Photoshoot---Shot-1-desktop-1600x464.jpg);
   width: 100%;
-  background-position: center;
+  object-fit: cover;
+  object-position: left;
+  
 }
 .mobile {
   background-image: url(/our-coffees-img/wavy-background.png);
