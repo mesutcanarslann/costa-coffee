@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Costa Text Regular", sans-serif;
+    color: rgb(34, 35, 34);
+    font-weight: normal !important;
+    background-color: rgb(255, 255, 255) !important;
+    background-image: url(img/wavy-background-180786598e741294f08ecaf1990ddc76.png) !important;
+    background-repeat: repeat !important;
+    background-size: 320px 320px !important;
+    height: 100%;
+    overflow-x: hidden;
+}
+.head-text {
+    overflow: hidden;
+    background-color: rgb(176, 221, 245);
+ /*   padding : 10px 16px; */
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+p.text-center {
+    margin: auto;
+    padding: 0.7rem;
+    font-family: "Costa Text Regular", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(109, 31, 55);
+    font-weight: normal !important;
+}
+p.text-center a{
+    margin: auto;
+    padding: 0.7rem;
+    font-family: "Costa Text Regular", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(109, 31, 55);
+    font-weight: normal !important;
+}
+
+#main-area {
+    background-image: url(img/summer24-whippedcoffees-homepagehero-1600x640.jpg);
+    height: 640px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#main-area h1 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+    font-weight: bolder !important;
+}
+
+#main-area h5 {
+    position: relative;
+    padding-top: 14%;
+    padding-left: 10%;
+    color: white;
+    font-weight: bolder !important;
+}
+
+#main-area button.btn {
+    margin-left: 10%;
+}
+
+.header-desktop {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    color: white;
+    margin: 0px 16px;
+    font-family: "Costa Text Bold", sans-serif;
+    font-size: 16px;
+    font-weight: normal !important;
+    list-style-type: none;
+    line-height: 28px;
+    font-weight: bold;
+}
+.gradient {
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    height: 128px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.headline {
+    z-index: 11;
+}
+#promo-banner {
+   background:  rgb(244, 243, 239);
+   margin-top: -165px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSI1MDAiIHZpZXdCb3g9IjAgMCAxNjAwIDUwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxtYXNrIGlkPSJhaG1vdjVma2xhIiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSItNiIgeT0iMCIgd2lkdGg9IjE2MDYiIGhlaWdodD0iNTAwIj4KICAgICAgICA8cGF0aCBmaWxsPSIjRDlEOUQ5IiBkPSJNLTYgMGgxNjA2djUwMEgtNnoiLz4KICAgIDwvbWFzaz4KICAgIDxnIG1hc2s9InVybCgjYWhtb3Y1ZmtsYSkiPgogICAgICAgIDxwYXRoIGQ9Ik0tNiAyNzA1Ljc5VjQ1Ljg4QzEwNC4xODMgMjkuMzY0IDIyMS4yMjEgMTUgMzYyLjg0MyAxNWMxNzIuMDg2IDAgMzA3LjkwNyAyMS4yMTkgNDM5LjI2NiA0MS43MzJDOTEwLjMyNCA3My42MzggMTAxMy41OCA4OS43NTYgMTEzNC43IDk0LjgyaDE1Ni43M2MxMTIuMTItNC42OTQgMjA4Ljk0LTE4Ljg2NiAzMDguNTctMzQuMzU5VjI3MDUuNzlILTZ6IiBmaWxsPSIjQjBEREY1Ii8+CiAgICA8L2c+Cjwvc3ZnPgo=);
+        mask-size: cover;
+        height: 100%;
+        padding-top: 50px;
+        text-align: center;
+}
+
+#promo-banner h1 {
+    font-family: "Costa Display Wave Bold", sans-serif;
+    color: rgb(109, 31, 55);
+    max-width: 488px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    font-weight: bold !important;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+#promo-banner h5 {
+    font-family: "Costa Display Wave Bold", sans-serif;
+    color: rgb(109, 31, 55);
+    max-width: 488px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    font-weight: bolder !important;
+    width: 100%;
+    text-align: left;
+    max-width: none;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+button.btn-danger {
+    pointer-events: auto;
+    background: #6d1f37;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 32px;
+    --bs-btn-active-bg : #b51244;
+    --bs-btn-border-color: #6d1f37;
+    margin-top: 16px;
+    padding: 18px 27px;
+    margin-bottom: 18px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-weight: bolder !important;
+    display: flex;
+}
+
+#promo-banner .col-6 {
+    padding-top: 80px;
+}
+
+div#content-head {
+    text-align: center;
+    color: rgb(109, 31, 55);
+    margin-bottom: 56px;
+}
+
+#content-head h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bolder !important;
+}
+
+div#first-one {
+    background-color: rgb(176, 221, 245);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    padding: 0;
+}
+
+div#second-one {
+    background-color: rgb(245, 142, 144);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    padding: 0;
+}
+
+div#third-one {
+    background-color: rgb(207, 168, 202);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    padding: 0;
+}
+
+#menu-details h3 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 27.5px;
+    color: rgb(109, 31, 55);
+    font-weight: bolder !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#menu-details p {
+    text-align: center;
+    color: rgb(34, 35, 34);
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 20px 35px;
+}
+
+#menu-details button.btn.btn-danger {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#bottom-texts {
+    margin: 2% 12% 5%;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bolder !important;
+}
+div#bottom-texts a {
+    color: rgb(109, 31, 55);
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    overflow-wrap: break-word;
+    font-weight: bolder !important;
+}
+
+div#bottom-texts a:hover {
+    color: #b51244;
+}
+
+footer.container-fluid {
+    background: rgb(181, 17, 68);
+    color: rgb(255, 255, 255);
+    font-family: "Costa Text Regular", sans-serif;
+    line-height: 1.5;
+    font-weight: bolder !important;
+}
+
+div#footer-details {
+    padding: 64px 83px 0px;
+    margin-bottom: 3%;
+}
+
+#footer-details ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#footer-details li {
+    margin: 0 0 12px !important;
+    display: block;
+}
+
+#footer-details h6 {
+    margin: 0px 0px 40px;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: bolder !important;
+}
+
+#footer-details a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer-details a:hover {
+    color: #c1bdbd;
+}
+
+div#footer-others {
+    background-color: #6c1f37;
+    padding: 30px 83px 50px;
+    margin-top: 40px;
+}
+
+#footer-others ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#footer-others li {
+    margin: 0 0 12px !important;
+    display: block;  
+    font-weight: 500 !important; 
+    font-size: 18px;
+        line-height: 28px;
+}
+
+#footer-others a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer-others a:hover {
+    color: #c1bdbd;
+}
+
+footer img {
+    margin-right: 1%;
+    height: 25px;
+}
+
+#header-mobile { display: none;}
+
+@media only screen and (max-width: 600px) {
+    #main-area {
+        background-image: url(img/summer24-whippedcoffees-homepagehero-640x1126.jpg);
+        height: 640px;
+        width: 100vw;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    div#first-one {
+       margin-bottom : 15px;
+    }
+    div#second-one {
+        margin-bottom : 15px;
+     }
+     div#third-one {
+        margin-bottom : 15px;
+     }
+     .header-desktop { 
+        display: none;
+     }
+     #header-mobile {
+        display: block;
+     }
+     #main-area h1 {
+        margin-top: 15%;
+    }
+    #main-area h5 {
+        padding-top: 25%;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: transparent;
+        position: sticky;
+    }
+      .topnav #myLinks {
+        display: none;
+      }
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      .topnav a.icon {
+        background: transparent;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      img#mobile-logo {
+        height: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #myLinks ul {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #myLinks li {
+
+display: block;
+height: 38px;
+line-height: 38px;
+font-size: 25px;
+padding: 4px;
+width: 247px;
+margin-left: 36px;
+box-sizing: content-box;
+margin: 0px 16px;
+font-family: "Costa Text Bold", sans-serif;
+font-weight: bolder !important;
+    }
+    #myLinks li a{
+color: white;
+text-decoration: none;
+padding-left: 20px;
+            }
+    
+    #myLinks {
+        background-image: url(img/waffle2-c338116ccb1be7ce5664d01546a5dc4c.svg) !important;
+        width: 100%;
+    height: 100%;
+    z-index: 1;
+    }
+    img#hover-logo {
+        height: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 3%;
+    }
+    i.fa.fa-times {
+        position: absolute;
+        font-size: 38px;
+        padding-left: 2%;
+        color: white;
+    }
+      
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="76px" viewBox="0 0 48 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mobile</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconography-on-dark-copy-2" transform="translate(-1136.000000, -1124.000000)">
+            <g id="Mobile" transform="translate(1136.000000, 1124.000000)">
+                <rect id="Rectangle" stroke="#CE4B27" stroke-width="4" x="2" y="2" width="44" height="72" rx="6"></rect>
+                <path d="M11,4 L38,4 L36.5028875,7.74278135 C36.1991608,8.50209811 35.4637433,9 34.6459341,9 L14.3540659,9 C13.5362567,9 12.8008392,8.50209811 12.4971125,7.74278135 L11,4 L11,4 Z" id="Rectangle" fill="#CE4B27"></path>
+                <circle id="Oval" fill="#CE4B27" cx="24" cy="64" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
