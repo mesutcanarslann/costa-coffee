@@ -95,6 +95,15 @@ main {
   }
   .ta-1 {
     font-size: 10px;
+  #desktop-menu{
+
+  }
+  }
+  #top-btn {
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    width: 150px;
   }
 }
 
@@ -422,12 +431,7 @@ footer img {
   div#third-one {
     margin-bottom: 15px;
   }
-  .header-desktop {
-    display: none;
-  }
-  #header-mobile {
-    display: block;
-  }
+
   #main-area h1 {
     margin-top: 15%;
   }
@@ -438,9 +442,6 @@ footer img {
     overflow: hidden;
     background-color: transparent;
     position: sticky;
-  }
-  .topnav #myLinks {
-    display: none;
   }
   .topnav a {
     color: white;
