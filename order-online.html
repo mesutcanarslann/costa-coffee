@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Costa Coffee - Order Online</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar transparent navbar-expand-lg p-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            class="costa-position"
+            src="resimler/costa-coffee-logo__1_.png"
+            ;
+            style="width: 12rem"
+            ;
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas nav-bg offcanvas-start text-bg-dark"
+          width="100%"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <img
+                class="offcanvas-img"
+                width="225"
+                height="80"
+                src="resimler/costa-coffee-logo__1_.png"
+                alt=""
+              />
+            </h5>
+            <button
+              type="button"
+              class="offcanvas-btn btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active mt-2" aria-current="page" href="#"
+                  >Our coffees</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#">Our menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#">Costa Club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#">Order online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#">Sustainability</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#">Gift cards</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header-bg">
+      <!--h-100 önemli height verdiğimiz için-->
+      <div class="container py-5 h-100">
+        <div class="row h-100">
+          <div class="col-12 col-lg-6">
+            <!--justify-content-end vs yapıları önemli-->
+            <div
+              class="header-struction d-flex align-items-center justify-content-lg-center justify-content-end h-100 text-center flex-column"
+            >
+              <h1 class="fw-bolder lh-7 header-text-h1">Costa Delivery</h1>
+              <p class="lead fw-normal header-text-p">
+                Freshly brewed coffee, tasty meals and delicious snacks prepared
+                in-store and delivered to you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="delivery">
+      <div
+        class="d-flex py-3 flex-row justify-content-center align-items-center"
+      >
+        <a href="#!" class="me-5">Delivery</a>
+        <a href="#!" class="ms-2">Click & Collect</a>
+      </div>
+    </div>
+    <main class="main">
+      <div>
+        <div class="d-flex font justify-content-center align-items-center">
+          <h3 class="fw-bolder">Your favourites, delivered by...</h3>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div
+          class="row choice px-5 d-flex justify-content-around align-items-center text-center"
+        >
+          <div class="col-lg-4 col-12">
+            <div>
+              <a href=""
+                ><img src="resimler/uber.png" alt="" width="200px"
+              /></a>
+            </div>
+            <div class="mt-3">
+              <h3>Uber Eats</h3>
+              <p style="font-size: 1.2rem">
+                Start your order via the Uber Eats app or website.
+              </p>
+              <button class="mb-4">Order now</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div>
+              <a href=""
+                ><img src="resimler/Deliveroo.png" alt="" width="200px"
+              /></a>
+            </div>
+            <div class="mt-3">
+              <h3>Deliveroo</h3>
+              <p style="font-size: 1.2rem">
+                Start your order via the Deliveroo app or website.
+              </p>
+              <button class="mb-4">Order now</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div>
+              <a href=""
+                ><img src="resimler/Just_Eat.png" alt="" width="200px"
+              /></a>
+            </div>
+            <div class="mt-3">
+              <h3>Just Eat</h3>
+              <p style="font-size: 1.2rem">
+                Start your order via the Just Eat app or website.
+              </p>
+              <button class="mb-4">Order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="art container p-5">
+        <div class="row p-5 justify-content-center align-items-center">
+          <div class="col-12 col-lg-4">
+            <img
+              class="art-img img-fluid"
+              src="resimler/delivery-21-389x280.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-lg-8 mb-5">
+            <h3 class="fw-bolder img-text">
+              See if Costa delivers in your area
+            </h3>
+            <p>
+              Don't forget to check our partners' websites or apps for
+              availability of delivery in your area.** Or use our handy store
+              locator to see if your local store delivers.
+            </p>
+            <a href="#!">Find a Costa</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center mt-3">
+        <h3>How to order for delivery</h3>
+      </div>
+      <div class="container px-5">
+        <div class="row mx-5 py-5">
+          <div
+            class="icon col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <img src="resimler/icons-mobile.svg" class="mb-3" alt="" />
+            <h5>Place your order with our partners</h5>
+            <p>
+              Download or visit the Uber Eats, Deliveroo or Just Eat app or
+              websites to get started.
+            </p>
+          </div>
+          <div
+            class="icon col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <img src="resimler/icon-location_pin.svg" class="mb-3" alt="" />
+            <h5 class="mt-4 text-center">Search for Costa Coffee and browse</h5>
+            <p>
+              Set your location and choose your favourites from the available
+              menu.
+            </p>
+          </div>
+          <div
+            class="icon col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center"
+          >
+            <img src="resimler/coffee-icon.svg" class="mb-3" alt="" />
+            <h5>Sit back and relax. Your order is on the way</h5>
+            <p>
+              Our baristas will prepare your order in store ready for
+              contact-free pick-up and delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="text">
+          <p>
+            **Limited menu items. See here for full terms and conditions and
+            visit Uber Eats, Deliveroo and Just Eat for more delivery
+            information.
+          </p>
+          <br /><br /><br />
+          <p>
+            Please remember that when you click a link to go from our website to
+            another website, our Privacy policy and Cookie policy no longer
+            applies. Any browsing, interaction and transactions on another
+            website, is subject to that website's or third-party notices and
+            policies which we recommend you read.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="top">
+      <div class="row p-5">
+        <div class="col-12 col-lg-2 text-left">
+          <h6 class="mb-5 fw-bolder">About us</h6>
+          <ul>
+            <li class="mb-3"><a href="#!">Our coffees</a></li>
+            <li class="mb-3"><a href="#!">Our story</a></li>
+            <li class="mb-3"><a href="#!">Sustainability</a></li>
+            <li class="mb-3"><a href="#!">Costa Foundation</a></li>
+            <li class="mb-3"><a href="#!">Policies and reports</a></li>
+            <li class="mb-3"><a href="#!">Modern Slavery Statement</a></li>
+            <li class="mb-3"><a href="#!">Download our app</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 text-left">
+          <h6 class="mb-5 fw-bolder">Dietary information</h6>
+          <ul>
+            <li class="mb-3"><a href="#!">Nutrition & allergens</a></li>
+            <li class="mb-3"><a href="#!">Store dietary information</a></li>
+            <li class="mb-3">
+              <a href="#!">Branded products dietary information</a>
+            </li>
+            <li class="mb-3">
+              <a href="#!">Costa Express dietary information</a>
+            </li>
+            <li class="mb-3">
+              <a href="#!">Ready to drink dietary information</a>
+            </li>
+            <li class="mb-3">
+              <a href="#!">Costa at home dietary information</a>
+            </li>
+            <li class="mb-3">
+              <a href="#!">Podio countertop dietary information</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 text-left">
+          <h6 class="mb-5 fw-bolder">Gifting</h6>
+          <ul>
+            <li class="mb-3"><a href="">Gift cards</a></li>
+            <li class="mb-3"><a href="">Gift cards for business</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 text-left">
+          <h6 class="mb-5 fw-bolder">For business</h6>
+          <ul>
+            <li class="mb-3"><a href="">Costa Business Partners</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 text-left">
+          <h6 class="mb-5 fw-bolder">Contact us</h6>
+          <ul>
+            <li class="mb-3"><a href="#!">FAQs</a></li>
+            <li class="mb-3"><a href="#!">Contact us</a></li>
+            <li class="mb-3"><a href="#!">Press</a></li>
+            <li class="mb-3"><a href="#!">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <footer class="bottom px-3">
+      <div class="row mx-5 py-5">
+        <ul class="privacy">
+          <li>
+            <a href="#!">Privacy policy</a>
+          </li>
+          <li>
+            <a href="#!">Cookie policy</a>
+          </li>
+          <li>
+            <a href="#!">Terms and conditions</a>
+          </li>
+        </ul>
+        <h6 class="mt-5 mb-5 text-white">
+          © 2013 - 2024 Costa. All rights reserved.
+        </h6>
+        <ul style="display: flex; gap: 25px">
+          <li>
+            <a href="#!" class="fb"
+              ><img src="resimler/facebook.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#!"><img src="resimler/X__1_.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#!"><img src="resimler/instagram.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#!"><img src="resimler/TikTok.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#!"><img src="resimler/youtube.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
