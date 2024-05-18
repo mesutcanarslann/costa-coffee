@@ -1,0 +1,311 @@
+
+
+body {
+ font-family: "Costa Display Wave Bold", sans-serif;
+}
+.btndrink{
+    width: 550px;
+    margin-left: 400px;
+    border-radius: 20px;
+    justify-content: center; 
+    border-color: gray;
+    
+}
+.btndrink:active{
+    border-color: #6d1f37; 
+}
+.name{
+  margin-left: 410px;
+  color: #6d1f37;
+
+}
+.btn-first{
+    color: palevioletred;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 5px #d6a9d0;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0px;
+    
+}
+.btn-first:hover{
+    color: palevioletred;
+}
+
+.paragraph{
+    margin-top: 20px;
+    margin-left:410px;
+}
+
+.menu{
+    margin-left: 70px;
+    color: #6d1f37;      
+}
+
+.menu h2{
+    margin-top: 70px;
+    font-size: 55px;
+    font-weight: bold ;
+}
+
+.drink{
+    font-size: 20px;
+}
+.bg-vg{
+    background-color: #f8b0b1;
+   width:100px;
+}
+
+.bg-img{
+    background-image: url('/images/summer24-whippedcoffees-desktophero-1600x464.jpg') ;
+    position: relative;
+    top: 0;
+    left: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;      
+}
+
+.main-bg{
+    background-image: url('resimler/wavy-background.png');
+    position: relative;
+    background-position: center;
+    
+}
+.filterButton{
+    padding: 15px;
+    margin: 10px ;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    border-color: grey; 
+
+}
+
+.filterButton:active{
+    background-color: transparent;
+}
+
+.allergens{
+    width: 50%;
+}
+
+.alg{
+    justify-content: start;
+
+}
+.baslik{
+    padding: 200px 0px 50px 0px;
+}
+
+@media (min-width: 375px) {
+    .header-bg {
+      background-image: url(resimler/ophone.jpg);
+      height: 500px;
+    }
+  }
+  @media (max-width: 768px) {
+    .font {
+      margin-top: 15px;
+    }
+    .text p {
+      font-size: 12px !important;
+    }
+  }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 48px !important;
+    }
+    p {
+      font-size: 18px;
+    }
+    .font {
+      padding-top: 125px;
+      padding-bottom: 50px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    .text p {
+      padding: 0px 104px;
+    }
+    .icon h5 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  
+  @media (max-width:992px) {
+    main {
+      background-image: url(resimler/wavy-background.png) !important;
+      height: 3000px !important;
+    }
+  }
+  @media (min-width: 1024px) {
+    .header-bg {
+      background-image: url(resimler/odesktop.jpg);
+      height: 500px;
+    }
+  }
+  .header-bg {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+  .header-struction {
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px auto;
+  }
+  @media (min-width: 1024px) {
+    .header-struction {
+      margin: 100px 100px 0px 0px;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+    /*.icon {
+      position: relative;
+      margin: 0px 0px 0px 0px; 
+    }*/
+    .text p {
+      padding: 0px 144px !important;
+    }
+  }
+  @media (max-width:992px) {
+    .costa-position {
+      position: absolute;
+      width: 150px !important;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .navbar {
+      width: 100%;
+    }
+    .navbar .container-fluid {
+      flex-direction: row-reverse;
+    }
+  }
+  @media (min-width: 1275px) {
+    .header-struction {
+      margin: 50px 140px 0px 0px;
+    }
+  }
+  .header-text-h1 {
+    color: rgb(109, 31, 55);
+      font-family: Impact, Haettenschweiler, 'Narrow Bold', sans-serif;
+    font-size: 36px;
+  }
+  .header-text-p {
+    color: rgb(109, 31, 55);
+    font-size: 20px;
+    font-family: "Costa Text Regular", sans-serif;
+  }
+  .delivery {
+    background-color: rgb(181, 17, 68);
+  }
+  .delivery a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .delivery d {
+    position: relative;
+  }
+  .main {
+    background-image: url(resimler/wavy-background.png);
+    height: 1900px;
+  }
+  h3 {
+    font-family: "Costa Text Bolder", sans-serif;
+    color: rgb(109, 31, 55);
+  }
+  button {
+    background-color: rgb(109, 31, 55);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+  }
+  button:hover {
+    background-color: rgb(193, 16, 66);
+  }
+  .choice {
+    padding: 0px 16px 80px 16px;
+  }
+  /* .img-fluid {
+    max-width: 300px;
+  } */
+  .art {
+    background-color: white;
+  }
+  .text p {
+    font-size: 14px !important;
+    padding: 0px 32px;
+  }
+  .top {
+    background-color: rgb(181,17,68);
+    color: white;
+  }
+  .top ul li {
+    list-style-type: none;
+  }
+  .top h6 {
+    margin-left: 2rem;
+  }
+  .top a {
+    text-decoration: none;
+    color: white;
+    font: size 2rem;
+  }
+  .top h6 {
+    font-size: large;
+  }
+  .bottom {
+    background-color: rgb(109,31,55);
+  }
+  .bottom a {
+    text-decoration: none;
+    color: white;
+  }
+  .bottom ul li {
+    list-style-type: none;
+    font-size: 18px;
+  }
+  .fb img {
+    width: 1rem;
+  }
+  @media (min-width:768px) {
+    .privacy {
+      grid-template-columns: 1fr 1fr 1fr !important;
+      column-gap: 48px;
+      display: grid;
+    }
+  }
+  .transparent {
+    background:transparent;
+    position: absolute;
+    z-index: 2;
+  }
+  .nav-item a {
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
