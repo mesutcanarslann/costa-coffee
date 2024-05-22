@@ -5,6 +5,7 @@
 header {
   position: relative;
   background-image: url(/our-coffees-img/CO84532---Autumn-2023-Food-Photoshoot---Shot-1-desktop-1600x464.jpg);
+ object-fit: cover;
   width: 100%;
   object-fit: cover;
   object-position: left;
@@ -171,6 +172,38 @@ main {
     width: 180px;
   }
 }
+@media (min-width: 1620px) {
+  #top-btn {
+    width: 180px;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    background-image: url(/our-coffees-img/CO84532---Autumn-2023-Food-Photoshoot---Shot-1-desktop-1600x464.jpg);
+    object-fit: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgb(34, 35, 34);
+    display: flex: ;
+    font-size: 18px;
+    font-weight: 400;
+    height: 464px;
+    line-height: 28px;
+    tab-size: 4;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 1914px;
+  
+  }
+
+}
+
+@media screen (max-width: 1023px){
+  
+}
+
 
 /* copy css */
 
