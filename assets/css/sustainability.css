@@ -1,0 +1,256 @@
+body {
+  background-image: url(/img/sustainability-background.png);
+}
+
+.header-background {
+  background-image: url(/img/sustainability-hero-green-red-wave-1600x464\ .jpg);
+  height: 464px;
+  padding: 40px;
+  padding-top: 40px;
+}
+.header-p {
+  color: white;
+  margin-top: 18px;
+}
+.header-background h1 {
+  font-family: "Costa Display Wave Bold", sans-serif;
+  color: white;
+  font-weight: 800;
+  line-height: 52px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  width: 100%;
+}
+#header-mobile {
+  display: none;
+}
+.offcanvas {
+  width: 100% !important;
+}
+.offcanvas-header {
+  text-align: center;
+}
+.offcanvas-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  object-fit: contain;
+  top: 1.5rem;
+}
+.offcanvas-btn {
+  margin: 0 !important;
+  margin-top: 32px !important;
+  width: 25px;
+}
+.transparent {
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+}
+.nav-item a {
+  color: white !important;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.header-ul {
+  height: 80px;
+  background-color: #b51144;
+}
+.header-ul ul li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+  padding: 15px 28px 15px 28px;
+}
+.header-ul ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+.header-banner {
+  background-color: white;
+}
+.header-banner h2 {
+  color: #6d1f37;
+  font-size: 40px;
+  font-weight: 800;
+}
+.header-banner p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-family: "Costa Text Regular", sans-serif;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.header-banner img {
+  float: right;
+  width: 40%;
+  box-sizing: content-box;
+  padding-left: 40px;
+}
+.main-1 h3 {
+  font-family: "Costa Display Wave Bold", sans-serif;
+  color: #6d1f37;
+  font-weight: 800;
+}
+.main-2 {
+  background-color: white;
+}
+.main-1 a {
+  text-decoration: none;
+  color: #6d1f37;
+  font-weight: 700;
+}
+.card-1 {
+  background-color: #e7d6e5;
+  height: 223px !important;
+  display: block;
+}
+
+.card-2 {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  border: 1px solid rgba(201, 197, 197, 0.486);
+  display: inline-block;
+}
+.card-2 a {
+  font-size: 18px !important;
+}
+.card-2 a:hover {
+  background-color: #b51144;
+  border: 1px solid #b51144;
+  border-radius: 50px;
+  padding: 6px;
+  text-align: center;
+  margin-top: 24px;
+  width: 50%;
+  padding: 12px;
+  margin: auto;
+  color: white;
+}
+.btn-1 a {
+  background-color: #6d1f37;
+  border: 1px solid #6d1f37;
+  border-radius: 50px;
+  padding: 6px;
+  text-align: center;
+  margin-top: 24px;
+  padding: 12px;
+  margin: auto;
+}
+.btn-1 a:hover {
+  background-color: #b51144;
+}
+
+.btn-1 a {
+  color: white;
+  text-align: center;
+}
+.fot-ban {
+  text-align: left !important;
+  font-family: "Costa Text Regular", sans-serif;
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin-top: 6px;
+}
+.fot-ban a {
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.main-3 {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #b51144;
+}
+.footer-style {
+  background-color: #b51144;
+  margin: 0px !important;
+  padding: 0px !important;
+  color: white;
+}
+.transparent {
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+}
+.nav-item a {
+  color: white !important;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .header-background {
+    background-image: url(/img/indir.jpg);
+  }
+}
+@media (max-width: 992px) {
+  .costa-position {
+    position: absolute;
+    margin: right;
+    left: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .privacy {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    column-gap: 48px;
+    display: grid;
+  }
+}
+.top {
+  background-color: rgb(181, 17, 68);
+  color: white;
+}
+.top ul li {
+  list-style-type: none;
+}
+.top h6 {
+  margin-left: 2rem;
+}
+.top a {
+  text-decoration: none;
+  color: white;
+  font: size 2rem;
+}
+.top h6 {
+  font-size: large;
+}
+.bottom {
+  background-color: rgb(109, 31, 55);
+}
+.bottom a {
+  text-decoration: none;
+  color: white;
+}
+.bottom ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.fb img {
+  width: 1rem;
+}
+.navbar ul li {
+  list-style: none;
+  float: left;
+  padding-right: 2rem;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700 !important;
+}
